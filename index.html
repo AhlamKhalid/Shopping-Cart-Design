@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- cart -->
+    <button id="cart-btn">
+      <i class="fa-brands fa-opencart fa-xl"></i>
+    </button>
+    <!-- cart sidebar -->
+    <div id="cart-sidebar" class="cart-sidebar">
+      <!-- header -->
+      <div class="cart-header-padding">
+        <div class="cart-header">
+          <p>
+            <span class="title">cart</span> <span class="items">(1 item)</span>
+          </p>
+          <button id="close-btn">
+            <i class="fa-solid fa-xmark fa-xl"></i>
+          </button>
+        </div>
+      </div>
+      <!-- products -->
+      <div class="cart-products">
+        <!-- product -->
+        <div class="product">
+          <div class="details">
+            <img src="./makeup.jpeg" alt="red lipstick" class="product-img" />
+            <div class="product-info">
+              <p class="product-name">Red lipstick</p>
+              <p class="product-price">$16</p>
+            </div>
+          </div>
+          <div class="controls">
+            <div class="quantity">
+              <button class="decrement-btn">
+                <i class="fa-solid fa-minus fa-sm"></i>
+              </button>
+              <p class="quantity-num">1</p>
+              <button class="increment-btn">
+                <i class="fa-solid fa-plus fa-sm"></i>
+              </button>
+            </div>
+            <button class="trash-btn">
+              <i class="fa-solid fa-trash-can fa-lg"></i>
+            </button>
+          </div>
+        </div>
+        <!-- product -->
+        <div class="product">
+          <div class="details">
+            <img src="./makeup-2.jpeg" alt="red lipstick" class="product-img" />
+            <div class="product-info">
+              <p class="product-name">Makeup set</p>
+              <p class="product-price">$36</p>
+            </div>
+          </div>
+          <div class="controls">
+            <div class="quantity">
+              <button class="decrement-btn">
+                <i class="fa-solid fa-minus fa-sm"></i>
+              </button>
+              <p class="quantity-num">1</p>
+              <button class="increment-btn">
+                <i class="fa-solid fa-plus fa-sm"></i>
+              </button>
+            </div>
+            <button class="trash-btn">
+              <i class="fa-solid fa-trash-can fa-lg"></i>
+            </button>
+          </div>
+        </div>
+        <!-- product -->
+        <div class="product">
+          <div class="details">
+            <img src="./makeup.jpeg" alt="red lipstick" class="product-img" />
+            <div class="product-info">
+              <p class="product-name">Red lipstick</p>
+              <p class="product-price">$16</p>
+            </div>
+          </div>
+          <div class="controls">
+            <div class="quantity">
+              <button class="decrement-btn">
+                <i class="fa-solid fa-minus fa-sm"></i>
+              </button>
+              <p class="quantity-num">1</p>
+              <button class="increment-btn">
+                <i class="fa-solid fa-plus fa-sm"></i>
+              </button>
+            </div>
+            <button class="trash-btn">
+              <i class="fa-solid fa-trash-can fa-lg"></i>
+            </button>
+          </div>
+        </div>
+        <!-- product -->
+        <div class="product">
+          <div class="details">
+            <img src="./makeup-2.jpeg" alt="red lipstick" class="product-img" />
+            <div class="product-info">
+              <p class="product-name">Makeup set</p>
+              <p class="product-price">$36</p>
+            </div>
+          </div>
+          <div class="controls">
+            <div class="quantity">
+              <button class="decrement-btn">
+                <i class="fa-solid fa-minus fa-sm"></i>
+              </button>
+              <p class="quantity-num">1</p>
+              <button class="increment-btn">
+                <i class="fa-solid fa-plus fa-sm"></i>
+              </button>
+            </div>
+            <button class="trash-btn">
+              <i class="fa-solid fa-trash-can fa-lg"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <div class="cart-footer">
+        <div class="total">
+          <p>total</p>
+          <p>$100</p>
+        </div>
+        <a href="#" class="checkout-link">checkout</a>
+      </div>
+    </div>
+    <!-- js -->
+    <script src="main.js"></script>
+  </body>
+</html>
